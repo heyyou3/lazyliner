@@ -1,0 +1,8 @@
+[[commands]]
+command = "echo hoge"
+description = "これはほげを出力するためのワンライナーです"
+tags = ["echo", "hoge"]
+[[commands]]
+command = "echo fuga"
+description = "これはふがを出力するためのワンライナーです"
+tags = ["echo", "fuga"]

@@ -1,0 +1,20 @@
+@startuml oneline-lazy
+left to right direction
+title: ユースケース図
+actor ユーザ as u
+package {
+  usecase コマンドを選択する as select_com
+}
+u --> select_com
+@enduml
+
+@startuml
+title: ドメインモデル図
+package コマンド集約 {
+  object コマンド {
+    ワンラインコマンド
+    説明
+    タグ
+  }
+}
+@enduml
