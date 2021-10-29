@@ -1,21 +1,17 @@
 package main
 
 import (
-	"fmt"
-	"lazyliner/infra/command"
+	"lazyliner/presentation"
 	"os"
 )
 
 func main() {
-	config, err := command.NewTomlRepository("./config.toml")
-	if err != nil {
-		os.Exit(1)
-	}
-	cmd := config.Fetch()
-	fmt.Println(cmd)
-	fmt.Println(run())
+	os.Exit(run())
 }
 
 func run() int {
+	if err := presentation.ChooseCommandController(); err != nil {
+		return 1
+	}
 	return 0
 }
