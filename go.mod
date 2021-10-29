@@ -1,4 +1,4 @@
-module oneline-lazy
+module lazyliner
 
 go 1.17
 

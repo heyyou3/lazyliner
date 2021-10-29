@@ -1,4 +1,4 @@
-@startuml oneline-lazy
+@startuml lazyliner
 left to right direction
 title: ユースケース図
 actor ユーザ as u

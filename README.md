@@ -1,4 +1,4 @@
-# Oneline-Lazy
+# lazyliner
 
 ## WHAT
 

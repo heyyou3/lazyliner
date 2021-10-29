@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"oneline-lazy/infra/command"
+	"lazyliner/infra/command"
 	"os"
 )
 

@@ -1,7 +1,7 @@
 package command
 
 import (
-	"oneline-lazy/domain/command"
+	"lazyliner/domain/command"
 
 	"github.com/BurntSushi/toml"
 )
